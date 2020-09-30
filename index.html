@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Your Company description" />
+  <title>Company</title>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
+          <a href="./" class="logo" title="Company">
+            <span class="sr-only"> Company </span>
+          </a>
+          <input id="menuToggle" type="checkbox" />
+          <label for="menuToggle" class="menuToggle"></label>
+          <ul class="navbar-row nav-row">
+            <li><a href="#home" title="Home"> Inicio </a></li>
+            <li><a href="#about" title="Nosotros"> Nosotros </a></li>
+            <li class="dropdown">
+              <a class="dropdown_toggle" href="#services" title="Servicios"> Servicios </a>
+              <ul class="nav-row dropdown_menu">
+                <li><a href="#services_one">Servicio 1</a></li>
+                <li><a href="#services_two">Servicio 2</a></li>
+                <li><a href="#services_three">Servicio 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact" title="Contacto"> Contacto </a></li>
+          </ul>
+        </div> <!-- /. row -->
+      </div> <!-- /. container -->
+    </nav>
+  </header>
+  <main id="home">
+    <div id="cover" class="cover">
+      <div class="title">
+        <h1>Titulo de la <em>web</em> de prueba</h1>
+      </div> <!-- /. title -->
+    </div> <!-- /. cover -->
+    <section id="about" class="container about">
+      <div class="row">
+        <div class="col-big">
+          <img class="img-rwd" src="images/about.jpg" alt="Imagen de nosotros company" />
+        </div>
+        <!-- /. col -->
+        <div class="col-small">
+          <div class="sub-title">
+            <h2>Nosotros</h2>
+          </div> <!-- /. sub-title -->
+          <div class="paragraph">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div> <!-- /. paragraph -->
+        </div> <!-- /. col -->
+      </div> <!-- /. row -->
+    </section> <!-- /. container about -->
+    <section id="services" class="container services">
+      <div class="sub-title">
+        <h3>Servicios</h3>
+      </div> <!-- /. sub-title -->
+      <div class="row">
+        <div id="services_one" class="col">
+          <img class="img-rwd" src="images/services.jpg" alt="imagen" />
+          <div class="paragraph">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div> <!-- /. paragraph -->
+        </div> <!-- /. col -->
+        <div id="services_two" class="col">
+          <img class="img-rwd" src="images/services.jpg" alt="imagen" />
+          <div class="paragraph">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div> <!-- /. paragraph -->
+        </div> <!-- /. col -->
+        <div id="services_three" class="col">
+          <img class="img-rwd" src="images/services.jpg" alt="imagen" />
+          <div class="paragraph">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div> <!-- /. paragraph -->
+        </div> <!-- /. col -->
+      </div> <!-- /. row -->
+    </section> <!-- /. container services -->
+    <section id="contact" class="container contact">
+      <div class="row">
+        <div class="col-small"> <img class="img-rwd" src="images/contact.jpg" alt="Imagen de nosotros company" /> </div>
+        <!-- /. col -->
+        <div class="col-big">
+          <div class="form">
+            <div class="sub-title">
+              <h4>Contacto</h4>
+              <i class="fa fa-bath" aria-hidden="true"></i>
+            </div> <!-- /. sub-title -->
+            <form method="get">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Nombre" required />
+                <input type="email" name="email" placeholder="Correo" required />
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="box-button">
+                <button type="submit" class="submit">Enviar</button>
+              </div> <!-- /. button -->
+            </form>
+          </div> <!-- /. form -->
+        </div> <!-- /. col -->
+      </div> <!-- /. row -->
+    </section> <!-- /. container contact -->
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <a href="./" class="logo-footer" title="Company">
+            <span class="sr-only"> Company </span>
+          </a>
+          <div class="social-networks">
+            <div class="nav-row">
+              <a href="http://facebook.com" target="_blank">
+                <i class="ico facebook"></i>
+                <span class="sr-only"> Facebook </span>
+              </a>
+              <a href="http://instagram.com" target="_blank">
+                <i class="ico instagram"></i>
+                <span class="sr-only"> Instagram </span>
+              </a>
+              <a href="http://pinterest.com" target="_blank">
+                <i class="ico pinterest"></i>
+                <span class="sr-only"> Pinterest </span>
+              </a>
+            </div> <!-- /. row -->
+          </div> <!-- /. social-networks -->
+        </div> <!-- /. row -->
+      </div> <!-- /. container -->
+    </div> <!-- /. footer-content -->
+  </footer>
+</body>
+</html>
